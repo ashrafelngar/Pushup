@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تعذر الوصول إلى الموقع</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", Tahoma, Arial, sans-serif;
+    background: #fff;
+    color: #202124;
+    min-height: 100vh;
+    padding: 60px 32px;
+  }
+  .wrap {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  .icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 40px;
+    color: #5f6368;
+  }
+  h1 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 24px;
+    color: #202124;
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #5f6368;
+    margin-bottom: 8px;
+  }
+  .code {
+    font-size: 12px;
+    color: #5f6368;
+    margin-top: 24px;
+    letter-spacing: 0.3px;
+  }
+  .reload-btn {
+    margin-top: 48px;
+    background: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    padding: 14px 32px;
+    font-size: 15px;
+    width: 100%;
+    max-width: 400px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <svg class="icon" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3">
+      <path d="M30 15 L30 85 L75 85 L75 35 L55 15 Z" />
+      <path d="M55 15 L55 35 L75 35" />
+      <circle cx="52" cy="65" r="2" fill="currentColor"/>
+      <path d="M42 72 Q52 62 62 72" />
+    </svg>
+
+    <h1>لا يمكن الوصول إلى الموقع الإلكتروني هذا</h1>
+
+    <p>يبدو أن هذا الموقع لم يعد متاحًا حاليًا.</p>
+    <p>تحقَّق من الرابط أو حاول مرة أخرى لاحقًا.</p>
+
+    <div class="code">DNS_PROBE_FINISHED_NXDOMAIN</div>
+
+    <button class="reload-btn" onclick="location.reload()">إعادة التحميل</button>
+  </div>
+</body>
+</html>
